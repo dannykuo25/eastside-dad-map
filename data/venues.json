@@ -1,0 +1,56 @@
+[
+  {
+    "id": "newport-way-library",
+    "name": "Newport Way Library",
+    "area": "Factoria / Newport",
+    "category": "indoor",
+    "lat": 47.5577,
+    "lng": -122.1668,
+    "stroller_rating": "5/5",
+    "features": [
+      "15分鐘內可達",
+      "免費幼兒故事會 (Toddler Storytime)",
+      "無障礙坡道",
+      "乾淨親子廁所"
+    ],
+    "dad_tip": " Factoria 爸爸必備防空洞！週二、三上午帶 15 個月大寶寶來參加故事會，結束後推車直接走去 Factoria Mall 買菜或吃午餐。"
+  },
+  {
+    "id": "bellevue-downtown-park",
+    "name": "Bellevue Downtown Park",
+    "area": "Bellevue Downtown",
+    "category": "park",
+    "lat": 47.6147,
+    "lng": -122.2015,
+    "stroller_rating": "5/5",
+    "features": [
+      "超大平坦環形步道",
+      "頂級兒童沙坑與遊樂場",
+      "無障礙坡道設計",
+      "對面就是 Bellevue Square"
+    ],
+    "dad_tip": "推車界的高速公路。西南角入口坡度最緩，平日下午人少極好推。寶寶睡著後可以推過去叫一杯 Lady M 或咖啡。"
+  },
+  {
+    "id": "mercer-slough-environmental-center",
+    "name": "Mercer Slough Environmental Center",
+    "area": "South Bellevue",
+    "category": "nature",
+    "lat": 47.5762,
+    "lng": -122.1847,
+    "stroller_rating": "4/5",
+    "features": ["高架木棧道 (Boardwalk)", "自然森林景觀", "停車免費且位子多"],
+    "dad_tip": "不想去 Downtown 擠人時的首選。木棧道全程平整好推，兩旁是大樹不怕曬，非常適合爸爸邊推車邊聽 Podcast 放空。"
+  },
+  {
+    "id": "third-culture-coffee",
+    "name": "Third Culture Coffee",
+    "area": "Bellevue Downtown",
+    "category": "cafe",
+    "lat": 47.6154,
+    "lng": -122.2012,
+    "stroller_rating": "4/5",
+    "features": ["空間寬敞", "大型沙發區", "對雙人/大推車極度友善"],
+    "dad_tip": "平日上午塞得下 UPPAbaby 大推車而不會招人白眼。沙發區寬壓低，適合爸爸一邊喝咖啡一邊讓寶寶玩手邊的玩具。"
+  }
+]
