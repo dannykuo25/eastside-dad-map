@@ -14,7 +14,7 @@
       "無障礙坡道",
       "乾淨親子廁所"
     ],
-    "dad_tip": " Factoria 爸爸必備防空洞！週二、三上午帶 15 個月大寶寶來參加故事會，結束後推車直接走去 Factoria Mall 買菜或吃午餐。"
+    "dad_tip": " Factoria 爸爸必備防空洞！週二、三上午帶 15 個月大寶寶來參加故事會，結束後五分鐘內到Factoria Mall 大統華買菜或吃午餐。"
   },
   {
     "id": "bellevue-downtown-park",
@@ -73,5 +73,20 @@
     ],
     "facilities": ["slide","fountain", "restroom", "shade", "seesaw"],
     "dad_tip": "New community-sourced venue. Add your field-tested stroller route, restroom and shade notes after your visit."
+  },
+  {
+  "id": "grass-lawn-park",
+  "name": "Grass Lawn Park",
+  "area": "Redmond",
+  "category": "park",
+  "lat": 47.6682,
+  "lng": -122.1419,
+  "stroller_rating": "5/5",
+  "features": [
+    "佔地寬廣的平坦草坪與無障礙步道",
+    "頂級兒童遊樂場與夏季戲水區 (Splash Pad)",
+    "完善的停車場與乾淨洗手間設施"
+  ],
+  "dad_tip": "距離 Bellevue 車程不遠的好去處。園內步道平坦好推，大片的綠地與樹蔭非常適合假日帶寶寶來散步放電，玩累了還有溜滑梯和戲水設施可以殺時間。"
   }
 ]
