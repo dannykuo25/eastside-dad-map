@@ -19,5 +19,6 @@ export interface Venue {
   stroller_rating: string;
   features: string[];
   facilities: Facility[];
+  photos?: string[];
   dad_tip: string;
 }

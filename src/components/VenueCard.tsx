@@ -86,6 +86,23 @@ export default function VenueCard({ venue, onClose }: VenueCardProps) {
           </section>
         )}
 
+        {venue.photos && venue.photos.length > 0 && (
+          <section className="mt-4">
+            <h3 className="text-xs font-semibold tracking-wide text-zinc-400">現場照片</h3>
+            <div className="mt-2 flex snap-x gap-3 overflow-x-auto pb-2 scrollbar-hide">
+              {venue.photos.map((photo, index) => (
+                <img
+                  key={photo}
+                  src={photo}
+                  alt={`${venue.name} photo ${index + 1}`}
+                  loading="lazy"
+                  className="h-36 w-52 shrink-0 snap-start rounded-lg border border-zinc-700 object-cover"
+                />
+              ))}
+            </div>
+          </section>
+        )}
+
         <ul className="mt-4 space-y-1.5">
           {venue.features.map((feature) => (
             <li
