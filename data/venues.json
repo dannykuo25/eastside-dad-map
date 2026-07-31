@@ -1,6 +1,7 @@
 [
   {
     "id": "newport-way-library",
+    "facilities": ["restroom"],
     "name": "Newport Way Library",
     "area": "Factoria / Newport",
     "category": "indoor",
@@ -17,6 +18,7 @@
   },
   {
     "id": "bellevue-downtown-park",
+    "facilities": ["slide", "sandpit", "shade"],
     "name": "Bellevue Downtown Park",
     "area": "Bellevue Downtown",
     "category": "park",
@@ -33,6 +35,7 @@
   },
   {
     "id": "mercer-slough-environmental-center",
+    "facilities": ["shade"],
     "name": "Mercer Slough Environmental Center",
     "area": "South Bellevue",
     "category": "nature",
@@ -44,6 +47,7 @@
   },
   {
     "id": "third-culture-coffee",
+    "facilities": [],
     "name": "Third Culture Coffee",
     "area": "Bellevue Downtown",
     "category": "cafe",
@@ -52,5 +56,22 @@
     "stroller_rating": "4/5",
     "features": ["空間寬敞", "大型沙發區", "對雙人/大推車極度友善"],
     "dad_tip": "平日上午塞得下 UPPAbaby 大推車而不會招人白眼。沙發區寬壓低，適合爸爸一邊喝咖啡一邊讓寶寶玩手邊的玩具。"
+  },
+  {
+    "id": "robinswood-community-park",
+    "name": "Robinswood Community Park",
+    "area": "East Bellevue",
+    "category": "park",
+    "lat": 47.5874385,
+    "lng": -122.1410919,
+    "stroller_rating": "5/5",
+    "features": [
+      "Playground",
+      "Pond and open green space",
+      "Tennis center and dog corral",
+      "Wheelchair-accessible entrance"
+    ],
+    "facilities": ["slide","fountain", "restroom", "shade", "seesaw"],
+    "dad_tip": "New community-sourced venue. Add your field-tested stroller route, restroom and shade notes after your visit."
   }
 ]

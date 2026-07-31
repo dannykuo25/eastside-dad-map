@@ -2,10 +2,11 @@
 
 import { useMemo, useState } from "react";
 import FilterPills from "@/components/FilterPills";
+import FacilityFilters from "@/components/FacilityFilters";
 import MapView from "@/components/MapView";
 import VenueCard from "@/components/VenueCard";
 import { filterVenues, type FilterId } from "@/lib/filters";
-import type { Venue } from "@/types/venue";
+import type { Facility, Venue } from "@/types/venue";
 
 interface DadMapProps {
   venues: Venue[];
@@ -13,15 +14,23 @@ interface DadMapProps {
 
 export default function DadMap({ venues }: DadMapProps) {
   const [activeFilter, setActiveFilter] = useState<FilterId>("all");
+  const [selectedFacilities, setSelectedFacilities] = useState<Facility[]>([]);
   const [selectedVenue, setSelectedVenue] = useState<Venue | null>(null);
 
   const filteredVenues = useMemo(
-    () => filterVenues(venues, activeFilter),
-    [venues, activeFilter]
+    () => filterVenues(venues, activeFilter).filter((venue) =>
+      selectedFacilities.every((facility) => venue.facilities.includes(facility))
+    ),
+    [venues, activeFilter, selectedFacilities]
   );
 
   const handleFilterChange = (filterId: FilterId) => {
     setActiveFilter(filterId);
+    setSelectedVenue(null);
+  };
+
+  const toggleFacility = (facility: Facility) => {
+    setSelectedFacilities((current) => current.includes(facility) ? current.filter((item) => item !== facility) : [...current, facility]);
     setSelectedVenue(null);
   };
 
@@ -38,6 +47,7 @@ export default function DadMap({ venues }: DadMapProps) {
           activeFilter={activeFilter}
           onFilterChange={handleFilterChange}
         />
+        <FacilityFilters selected={selectedFacilities} onChange={toggleFacility} />
       </header>
 
       <main className="relative min-h-0 flex-1">
@@ -46,6 +56,11 @@ export default function DadMap({ venues }: DadMapProps) {
           selectedVenueId={selectedVenue?.id ?? null}
           onSelectVenue={setSelectedVenue}
         />
+        {filteredVenues.length === 0 && (
+          <div className="pointer-events-none absolute inset-x-4 top-4 rounded-xl border border-zinc-700 bg-zinc-950/95 p-4 text-center text-sm text-zinc-300 shadow-xl">
+            沒有符合所有條件的地點。試著取消一個設施篩選。
+          </div>
+        )}
         <VenueCard venue={selectedVenue} onClose={() => setSelectedVenue(null)} />
       </main>
     </div>

@@ -2,6 +2,17 @@
 
 import type { Venue } from "@/types/venue";
 
+const FACILITY_LABELS: Record<string, string> = {
+  slide: "溜滑梯",
+  swings: "盪鞦韆",
+  sandpit: "沙坑",
+  shade: "陰影",
+  sprayground: "噴水裝置",
+  restroom: "廁所",
+  seesaw: "蹺蹺板",
+  fountain: "飲水機",
+};
+
 interface VenueCardProps {
   venue: Venue | null;
   onClose: () => void;
@@ -58,6 +69,22 @@ export default function VenueCard({ venue, onClose }: VenueCardProps) {
         </div>
 
         <StarRating rating={venue.stroller_rating} />
+
+        {venue.facilities.length > 0 && (
+          <section className="mt-4">
+            <h3 className="text-xs font-semibold tracking-wide text-zinc-400">設施</h3>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {venue.facilities.map((facility) => (
+                <span
+                  key={facility}
+                  className="rounded-full border border-neon/40 bg-neon/10 px-2.5 py-1 text-xs font-medium text-neon"
+                >
+                  {FACILITY_LABELS[facility] ?? facility}
+                </span>
+              ))}
+            </div>
+          </section>
+        )}
 
         <ul className="mt-4 space-y-1.5">
           {venue.features.map((feature) => (
