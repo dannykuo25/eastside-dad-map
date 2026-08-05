@@ -1,12 +1,12 @@
 [
   {
     "id": "newport-way-library",
-    "facilities": ["restroom"],
+    "facilities": ["restroom", "fountain"],
     "name": "Newport Way Library",
     "area": "Factoria / Newport",
     "category": "indoor",
-    "lat": 47.5577,
-    "lng": -122.1668,
+    "lat": 47.5705089,
+    "lng": -122.1490423,
     "stroller_rating": "5/5",
     "features": [
       "15分鐘內可達",
@@ -18,7 +18,7 @@
   },
   {
     "id": "bellevue-downtown-park",
-    "facilities": ["slide", "sandpit", "shade"],
+    "facilities": ["slide", "swings", "sprayground", "restroom", "fountain"],
     "name": "Bellevue Downtown Park",
     "area": "Bellevue Downtown",
     "category": "park",
@@ -27,11 +27,13 @@
     "stroller_rating": "5/5",
     "features": [
       "超大平坦環形步道",
-      "頂級兒童沙坑與遊樂場",
+      "頂級遊樂場",
+      "早上十點有噴水裝置",
+      "彈跳床",
       "無障礙坡道設計",
       "對面就是 Bellevue Square"
     ],
-    "dad_tip": "推車界的高速公路。西南角入口坡度最緩，平日下午人少極好推。寶寶睡著後可以推過去叫一杯 Lady M 或咖啡。"
+    "dad_tip": "推車界的高速公路。西南角入口坡度最緩，平日下午人少極好推。寶寶睡著後可以推過去叫一杯 Lady M 或咖啡。或是去bellevue square吃kizuki日本拉麵"
   },
   {
     "id": "mercer-slough-environmental-center",
@@ -39,8 +41,8 @@
     "name": "Mercer Slough Environmental Center",
     "area": "South Bellevue",
     "category": "nature",
-    "lat": 47.5762,
-    "lng": -122.1847,
+    "lat": 47.5958498,
+    "lng": -122.1833508,
     "stroller_rating": "4/5",
     "features": ["高架木棧道 (Boardwalk)", "自然森林景觀", "停車免費且位子多"],
     "dad_tip": "不想去 Downtown 擠人時的首選。木棧道全程平整好推，兩旁是大樹不怕曬，非常適合爸爸邊推車邊聽 Podcast 放空。"
@@ -71,12 +73,12 @@
       "Tennis center and dog corral",
       "Wheelchair-accessible entrance"
     ],
-    "facilities": ["slide","fountain", "restroom", "shade", "seesaw"],
-    "dad_tip": "New community-sourced venue. Add your field-tested stroller route, restroom and shade notes after your visit."
+    "facilities": ["slide", "fountain", "restroom", "shade", "seesaw", "soccer_field", "baseball_field", "basketball_court"],
+    "dad_tip": "遊樂場被陰影覆蓋，旁邊就是足球場跟草地，遊樂場附近有個池塘可以看鴨子。"
   },
   {
   "id": "grass-lawn-park",
-  "facilities": ["slide", "sprayground", "restroom", "shade"],
+  "facilities": ["slide", "swings", "sandpit", "sprayground", "restroom", "shade", "seesaw", "soccer_field", "basketball_court"],
   "name": "Grass Lawn Park",
   "area": "Redmond",
   "category": "park",
@@ -86,7 +88,8 @@
   "features": [
     "佔地寬廣的平坦草坪與無障礙步道",
     "頂級兒童遊樂場與夏季戲水區 (Splash Pad)",
-    "完善的停車場與乾淨洗手間設施"
+    "完善的停車場與乾淨洗手間設施",
+    "公園很大"
   ],
   "dad_tip": "距離 Bellevue 車程不遠的好去處。園內步道平坦好推，大片的綠地與樹蔭非常適合假日帶寶寶來散步放電，玩累了還有溜滑梯和戲水設施可以殺時間。"
   },
@@ -97,14 +100,40 @@
     "category": "park",
     "lat": 47.5937682,
     "lng": -122.2031173,
-    "stroller_rating": "Not yet rated",
+    "stroller_rating": "5/5",
     "features": [
       "Community playground",
       "Wooded walking paths and paved paths for bikes or scooters",
       "Tennis courts, basketball hoops and picnic areas",
-      "Wheelchair-accessible entrance"
+      "Wheelchair-accessible entrance",
+      "遊樂場陰影覆蓋面積大",
+      "有一個流動廁所"
     ],
-    "facilities": [],
+    "facilities": ["slide", "swings", "restroom", "shade", "fountain", "tennis_court", "basketball_court", "trail"],
     "dad_tip": "New community-sourced venue. Add a field-tested stroller rating and playground facility notes after your visit."
+  },
+  {
+    "id": "highland-park",
+    "name": "Highland Park",
+    "area": "Bellevue",
+    "category": "park",
+    "lat": 47.6261961,
+    "lng": -122.1522709,
+    "stroller_rating": "5/5",
+    "features": ["Community park"],
+    "facilities": ["slide","swings","baseball_field","tennis_court"],
+    "dad_tip": "New community-sourced venue. Add field-tested stroller, playground and facility notes after your visit."
+  },
+  {
+    "id": "deanes-childrens-park",
+    "name": "Deane's Children's Park",
+    "area": "South Bellevue",
+    "category": "park",
+    "lat": 47.5516241,
+    "lng": -122.2224179,
+    "stroller_rating": "4/5",
+    "features": ["Children's park"],
+    "facilities": ["slide","swings","shade","restroom","tennis_court","trail"],
+    "dad_tip": "有一個石頭做的巨龍溜滑梯，公園很有森林感被大量植物包圍，有trail可以跑步或騎越野腳踏車"
   }
 ]

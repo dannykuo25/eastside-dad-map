@@ -11,6 +11,11 @@ const FACILITY_LABELS: Record<string, string> = {
   restroom: "廁所",
   seesaw: "蹺蹺板",
   fountain: "飲水機",
+  soccer_field: "足球場",
+  tennis_court: "網球場",
+  basketball_court: "籃球場",
+  baseball_field: "棒球場",
+  trail: "小步道",
 };
 
 interface VenueCardProps {

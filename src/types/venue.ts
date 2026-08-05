@@ -7,7 +7,12 @@ export type Facility =
   | "sprayground"
   | "restroom"
   | "seesaw"
-  | "fountain";
+  | "fountain"
+  | "soccer_field"
+  | "tennis_court"
+  | "basketball_court"
+  | "baseball_field"
+  | "trail";
 
 export interface Venue {
   id: string;

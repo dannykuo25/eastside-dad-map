@@ -11,6 +11,11 @@ const FACILITIES: { id: Facility; label: string }[] = [
   { id: "restroom", label: "廁所" },
   { id: "seesaw", label: "蹺蹺板" },
   { id: "fountain", label: "飲水機"},
+  { id: "soccer_field", label: "足球場" },
+  { id: "tennis_court", label: "網球場" },
+  { id: "basketball_court", label: "籃球場" },
+  { id: "baseball_field", label: "棒球場" },
+  { id: "trail", label: "小步道" },
 ];
 
 export default function FacilityFilters({ selected, onChange }: { selected: Facility[]; onChange: (facility: Facility) => void }) {
