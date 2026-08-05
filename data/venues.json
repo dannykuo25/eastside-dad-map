@@ -76,6 +76,7 @@
   },
   {
   "id": "grass-lawn-park",
+  "facilities": ["slide", "sprayground", "restroom", "shade"],
   "name": "Grass Lawn Park",
   "area": "Redmond",
   "category": "park",
@@ -88,5 +89,22 @@
     "完善的停車場與乾淨洗手間設施"
   ],
   "dad_tip": "距離 Bellevue 車程不遠的好去處。園內步道平坦好推，大片的綠地與樹蔭非常適合假日帶寶寶來散步放電，玩累了還有溜滑梯和戲水設施可以殺時間。"
+  },
+  {
+    "id": "killarney-glen-park",
+    "name": "Killarney Glen Park",
+    "area": "Bellevue Downtown",
+    "category": "park",
+    "lat": 47.5937682,
+    "lng": -122.2031173,
+    "stroller_rating": "Not yet rated",
+    "features": [
+      "Community playground",
+      "Wooded walking paths and paved paths for bikes or scooters",
+      "Tennis courts, basketball hoops and picnic areas",
+      "Wheelchair-accessible entrance"
+    ],
+    "facilities": [],
+    "dad_tip": "New community-sourced venue. Add a field-tested stroller rating and playground facility notes after your visit."
   }
 ]
