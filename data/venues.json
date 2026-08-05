@@ -135,5 +135,17 @@
     "features": ["Children's park"],
     "facilities": ["slide","swings","shade","restroom","tennis_court","trail"],
     "dad_tip": "有一個石頭做的巨龍溜滑梯，公園很有森林感被大量植物包圍，有trail可以跑步或騎越野腳踏車"
+  },
+  {
+    "id": "lake-sammamish-state-park-playground",
+    "name": "Lake Sammamish State Park Playground",
+    "area": "Issaquah",
+    "category": "park",
+    "lat": 47.5556071,
+    "lng": -122.0706184,
+    "stroller_rating": "Not yet rated",
+    "features": ["State park playground"],
+    "facilities": ["slide","swings","sandpit","restroom","fountain"],
+    "dad_tip": "New community-sourced venue. Add field-tested stroller and playground facility notes after your visit."
   }
 ]

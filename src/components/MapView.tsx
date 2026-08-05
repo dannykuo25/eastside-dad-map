@@ -33,9 +33,9 @@ export default function MapView({
     <Map
       mapboxAccessToken={MAPBOX_TOKEN}
       initialViewState={{
-        longitude: -122.2015,
-        latitude: 47.6101,
-        zoom: 11.5,
+        longitude: -122.1490423,
+        latitude: 47.5705089,
+        zoom: 10.5,
       }}
       style={{ width: "100%", height: "100%" }}
       mapStyle="mapbox://styles/mapbox/dark-v11"
